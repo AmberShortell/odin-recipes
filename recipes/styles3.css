@@ -57,7 +57,7 @@ body{
 }
 
 nav a {
-    padding: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 nav {
@@ -75,7 +75,6 @@ h1{
     margin-bottom: 1.5rem;
 }
 
-/* unvisited link */
 a{
     color: #FFF;
     font-weight: 700;
@@ -94,9 +93,14 @@ span, h2 {
 img{
     max-width: 90%;
     max-height: auto;
+    min-height: 9.375rem;
+    min-width: 12.5rem;
     border: 0.3rem dotted pink;
     padding: 0.1rem;
     margin: 0.3rem 1rem;
+    object-fit: cover;
+    width: 100%;
+    height: 12rem;
 }
 
 .row{
@@ -105,6 +109,7 @@ img{
     padding: 0 1rem;
     justify-content: center;
     gap: 1rem;
+    text-align: center;
 }
 
 .column{
