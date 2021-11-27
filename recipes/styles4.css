@@ -49,7 +49,7 @@ table {
 
 html {
     box-sizing: border-box;
-    background: teal;
+    background: purple;
 }
 
 body{
@@ -59,7 +59,7 @@ body{
 h1{
     margin: 1rem;
     font-size: 2rem;
-    text-decoration: underline 5px plum;
+    text-decoration: underline 5px dodgerblue;
     font-weight: 700;
     text-align: center;
     color: #FFF;
@@ -84,7 +84,7 @@ span, h2 {
 img{
     max-width: 90%;
     max-height: auto;
-    border: 0.3rem dotted pink;
+    border: 0.3rem dotted goldenrod;
     padding: 0.1rem;
     margin: 0.3rem 1rem;
 }
@@ -105,13 +105,13 @@ img{
 
 /* visited link */
 a:visited {
-    color: purple;
+    color: limegreen;
 }
   
 /* mouse over link */
 a:hover {
     cursor: default;
-    color: hotpink;
+    color: orange;
 }
   
 /* selected link */
