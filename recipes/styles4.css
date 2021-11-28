@@ -114,8 +114,6 @@ img{
 .column{
     max-width: 30rem;
     width: 15rem;
-    flex-grow: 1;
-    border: 2px solid red;
 }
 
 /* visited link */

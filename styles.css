@@ -1,3 +1,7 @@
+body {
+    background: gray;
+}
+
 h1, li {
     font-family: 'Garamond', sans-serif;
     text-align: center;
@@ -13,7 +17,7 @@ h1 {
     border: 6px groove red;
     border-radius: 5px;
     padding: 8px;
-    outline: gray groove 5px;
+    outline: white groove 5px;
 }
 
 ul {
@@ -31,7 +35,7 @@ li {
 
 /* unvisited link */
 a:link {
-    color: darkgray;
+    color: white;
 }
   
 /* visited link */
@@ -53,11 +57,8 @@ a:active {
 .flex-container {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%); 
+    justify-content: center;
+    align-self: center;
 }
 /*
   justify-content: center;
