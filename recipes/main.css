@@ -88,7 +88,7 @@ nav {
     text-decoration: underline 5px MediumAquamarine;
 }
 
-h1{
+h1 {
     margin: 1rem;
     font-size: 2rem;
     font-weight: 700;
@@ -97,7 +97,7 @@ h1{
     margin-bottom: 1.5rem;
 }
 
-a{
+a {
     color: #FFF;
     font-weight: 700;
     cursor: default;
@@ -116,14 +116,26 @@ a{
     text-decoration: underline 2px mediumaquamarine;
 }
 
-span, h2 {
+h2 {
     max-width: 90%;
     display: block;
     margin: 0.5rem 1rem;
     text-align: center;
 }
 
-img{
+.appetizers p, .desserts p, .entrees p {
+    margin: 0.75rem 0;
+}
+
+.desserts p, .entrees p {
+    color: white;
+}
+
+span {
+    font-weight: bold;
+}
+
+img {
     max-width: 90%;
     max-height: auto;
     padding: 0.1rem;
