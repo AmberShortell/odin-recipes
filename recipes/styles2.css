@@ -57,7 +57,8 @@ a {
 }
 
 @media (max-width: 480px) {
-    nav a {
+    .nav a {
+        display: inline-block;
         font-size: 2rem;
     }
 }
