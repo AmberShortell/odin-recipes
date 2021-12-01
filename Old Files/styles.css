@@ -1,0 +1,66 @@
+body {
+    background: gray;
+}
+
+h1, li {
+    font-family: 'Garamond', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+h1 {
+    font-size: 32px;
+    width: 624px;
+    margin: 20px auto;
+    background-color: black;
+    border: 6px groove red;
+    border-radius: 5px;
+    padding: 8px;
+    outline: white groove 5px;
+}
+
+ul {
+    width: 600px;
+    margin: 20px auto;
+    background-color: red;
+    border: 6px groove black;
+    border-radius: 5px;
+}
+
+li {
+    font-size: 16px;
+    padding: 6px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+  
+/* visited link */
+a:visited {
+    color: purple;
+}
+  
+/* mouse over link */
+a:hover {
+    cursor: default;
+    color: hotpink;
+}
+  
+/* selected link */
+a:active {
+    color: cyan;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+/*
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;*/
